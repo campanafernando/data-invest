@@ -6,7 +6,7 @@ import yfinance as yf
 
 class StockMarketData:
     def __init__(self, ticker_symbol):
-        self.ticker_symbol = ticker_symbol
+        self.ticker_symbol: str = ticker_symbol
 
     def get_equity_general_data(self) -> EquityGeneralData:
         ticker = yf.Ticker(self.ticker_symbol)
