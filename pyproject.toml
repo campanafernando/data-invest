@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "agromercantil-dash"
+version = "0.1.0"
+description = ""
+authors = ["'Fernando Campana'"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.29.0"
+matplotlib = "^3.8.2"
+pydantic = "^2.5.3"
+forex-python = "^1.8"
+yfinance = "^0.2.33"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
