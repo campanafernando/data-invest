@@ -6,7 +6,7 @@ authors = ["'Fernando Campana'"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.8"
 streamlit = "^1.29.0"
 matplotlib = "^3.8.2"
 pydantic = "^2.5.3"
