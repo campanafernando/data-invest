@@ -26,7 +26,7 @@ st.markdown(
 
 st.title('DataInvest')
 
-symbol = st.text_input('Insira a ação desejada:')
+symbol = st.text_input('Insira a ação desejada:', 'IBM')
 symbol = symbol.upper()
 
 if symbol:
