@@ -18,7 +18,7 @@ st.markdown(
             color: #008080;
         }
         .graph-title {
-            color: #000080;
+            color: #add8e6;
         }
         </style>
         """, unsafe_allow_html=True
