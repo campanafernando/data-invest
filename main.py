@@ -26,8 +26,13 @@ st.markdown(
 
 st.title('DataInvest')
 
-symbol = st.text_input('Insira a ação desejada:', 'IBM')
-symbol = symbol.upper()
+ticker_options = ['IBM', 'AAPL', 'GOOGL', 'MSFT', 'AMZN', 'TSLA', 'FB', 'NVDA']
+
+selected_symbol = st.selectbox('Escolha uma ação da lista:', ticker_options)
+
+custom_symbol = st.text_input('Ou insira uma ação personalizada:').upper()
+
+symbol = custom_symbol if custom_symbol else selected_symbol
 
 if symbol:
     try:

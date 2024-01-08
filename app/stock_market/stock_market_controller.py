@@ -3,7 +3,6 @@ from app.stock_market.stock_market_model import EquityGeneralData
 from decimal import Decimal
 import yfinance as yf
 
-
 class StockMarketData:
     def __init__(self, ticker_symbol):
         self.ticker_symbol: str = ticker_symbol
